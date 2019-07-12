@@ -15,7 +15,7 @@ exports.handler = function (event, context, callback) {
             if (!!(receivedMsgData) && !!(receivedMsgData.Messages)) {
                 let receivedMessages = receivedMsgData.Messages;
                 receivedMessages.forEach(message => {
-                    console.log("Success");
+                    console.log("Success msg");
                  console.log( message );
                     // your logic to access each message through out the loop. Each message is available under variable message 
                     // within this block
